@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build APK with Buildozer
-        uses: andresmrm/buildozer-action@v1
+      - name: Build APK
+        uses: AndreMiras/buildozer-action@v2
         with:
           buildozer_version: stable
 
